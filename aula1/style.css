@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+section{
+    background-color: #fff;
+    width: min(500px,90vw);
+    padding: 1.5em 2.5em 1em 2.5em;
+    border-radius: 9px;
+    max-height: 30px;
+}
+section input, button{
+    font-size: 1em;
+    padding: 8px;
+}
