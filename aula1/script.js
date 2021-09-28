@@ -13,6 +13,7 @@ function somar(){
 
     //estou passando o input que veio como ums string para um numero obs: use o window.alert(`o número é ${n1}`) para conferir se o número aparece e para ter certeza que ele é mesmo um numero (Number), faça uma operação simples com (`o numero é igual a R${n1 + 2}`)
     let n1 = Number (num1.value)
+    console.log(n1)
 
     // aqui estou fazendo o mesmo processo só que com o segundo número
     // Observação: para passar um número (para Inteiro (INT) você pode usar paseInt), (para numero com numeros depois da vírgula os (float), você usa o (parseFloat)) e se não quiser utilizar nada use apenas o (Number)
